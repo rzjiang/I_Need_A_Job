@@ -1,0 +1,12 @@
+The PathNormalizer.java file uses regular expressions to normalize paths from standard input.
+The .java file contains the code along with a few comments about how the program works.
+
+To run the program, you can run the .class file and type in a path of your choosing without any quotation marks.
+For instance: If I were running from a terminal, I would type in verbatim:
+	java PathNormalizer
+	foo/./bar
+After the second line is executed, the program will print an output and immediately exit, so if you want to normalize another string,
+then you must run the program again followed by the path you want to normalize. 
+If you want you can compile the PathNormalizer.java file before running PathNormalizer:
+	javac PathNormalizer.java
+but I promise you the .java file and the .class file are exactly the same.  
